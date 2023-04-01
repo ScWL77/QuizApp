@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<link rel = "stylesheet" href="app.css"/>
+	</head>
+	<body>
+		<div class = "container">
+			<div id = "home" class="flex-center flex-column"/>
+				<h1> Quiz Webapp </h1>
+				<form method="get" action="http://localhost:9999/clicker/start">
+					<button type = "submit" class = "submit-btn">Start</button>
+				</form>
+				<form>
+					<button id="generate_btn" type ="button" class = "submit-btn">Generate Code</button>
+				</form>
+				<b><span id ="code" style="font-size: 3rem;"></span></b>
+				<script>
+      				var button = document.getElementById("generate_btn");
+      				button.addEventListener("click",function(){
+      					var value = Math.floor(Math.random() * 900000) + 100000;
+      					document.getElementById("code").innerHTML = value;
+      					var url = "http://localhost:9999/clicker/generateCode?code=" + encodeURIComponent(value);
+      					var xhr = new XMLHttpRequest();
+      					xhr.open("GET",url);
+      					xhr.send();
+      				});
+    			</script>
+			</div>
+		</div>
+	</body>
+</html>
