@@ -8,7 +8,7 @@ Tasked to combine web app and mobile app to develop a mobile "Clicker" system
 3) Instructor displays the statistics on his console
 
 # Additional Features Added
-- Create an activity for students to log-in to the system
+- Create an activity for students to log-in to the system (Number Generated Code)
 - Keeping track of questions, e.g., in the MCQ panel, create two buttons "Start" and     
   "Stop" and capture all responses between the start and stop times, for that particular 
   question.
