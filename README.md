@@ -1,3 +1,20 @@
 # QuizApp
-IM2073 Mobile App Programming Mini Project. Tasked to combine webapp and mobile app to develop a mobile "Clicker" system using Java Servlets, Tomcat Server and Android Studio. The webapp will display MCQ questions with options. User need to select an option from the mobile android app. Statistics of the responses of a particular MCQ question needs to be able to be displayed on the web application. HTML, CSS and Javascript were used for the frontend of the webapp. Java and SQL database were used for the backend of the webapp. Android studio was used to create the mobile app.
+IM2073 Mobile App Programming Mini Project. 
+Tasked to combine web app and mobile app to develop a mobile "Clicker" system
+
+# Use Case
+1) Instructor shows a MCQ with options
+2) Students select an option from their mobile phones
+3) Instructor displays the statistics on his console
+
+# Additional Features Added
+- Create an activity for students to log-in to the system
+- Keeping track of questions, e.g., in the MCQ panel, create two buttons "Start" and     
+  "Stop" and capture all responses between the start and stop times, for that particular 
+  question.
+- User (mobile phone) registration
+
+# Project Demo
+
+https://github.com/ScWL77/QuizApp/assets/78342871/9a0a2441-ebc6-4667-95f4-3c10698feea5
 
